@@ -2,10 +2,28 @@
 <html>
     <head>
         <style>
+            body {
+                background-image: url("roof.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                
+            }
+            @font-face {
+                font-family: papyrusFont;
+                src: url(papyrusFont.ttf);
+            }
             h1 {
-                font-family: 'Papyrus', fantasy, cursive;
+                font-family: papyrusFont;
                 text-align: center;
                 font-size: 60px;
+                color: #FDFEFC;
+                text-shadow: 
+                     1px -1px #004996,
+                    -1px 1px #004996,
+                    -1px -1px #004996,
+                     1px 1px #004996;
+
             }
             h2 {
                 font-family: 'Papyrus', fantasy, cursive;
@@ -23,12 +41,12 @@
         </style>
     </head>
     <body>
-        <h1>Ellie Deathmachine Official</h1>
+        <h1>Ellie Deathmachine</h1>
         <p>Hello everyone, this is the official Ellie Deathmachine website.</p>
         <h2>Upcoming live shows</h2>
         <ul>
-            <li>March 9th at ??? with 3 Piece Jackal</li>
             <li>March 16th at the <a href="https://realms7.net/">Realms Arcade</a> with Lil Kevo 303, Dreamweaver, Elevation, and K A E N</li>
+            <li>Sometime in March with 3 Piece Jackal at an unknown location</li>
         </ul>
         <h2>Listen to Ellie Deathmachine</h2>
         <div style="display: flex; justify-content: space-between;">
