@@ -1,60 +1,112 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <title>ELDETH</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
         <style>
             body {
-                background-image: url("roof.jpg");
-                background-repeat: no-repeat;
+                background-image: url("meow.png");
                 background-position: center;
+                background-repeat: no-repeat;
                 background-size: cover;
-                
+
             }
+            table, th, td {
+  border:4px solid black;
+                background-color: #3b3838;
+                  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
             @font-face {
-                font-family: papyrusFont;
-                src: url(papyrusFont.ttf);
+                font-family: headerMain;
+                src: url(meowmeow.TTF);
+            }
+
+            @font-face {
+                font-family: subHeader;
+                src: url(googoo.ttf);
             }
             h1 {
-                font-family: papyrusFont;
+                font-family: headerMain;
                 text-align: center;
+                letter-spacing: 5px;
                 font-size: 60px;
-                color: #FDFEFC;
+                color: #876868;
                 text-shadow: 
-                     1px -1px #004996,
-                    -1px 1px #004996,
-                    -1px -1px #004996,
-                     1px 1px #004996;
+                     1px -1px #401e1e,
+                    -1px 1px #401e1e,
+                    -1px -1px #401e1e,
+                     1px 1px #401e1e
 
             }
             h2 {
-                font-family: 'Papyrus', fantasy, cursive;
-                font-size: 30px;
+                text-align: center;
+                font-family: subHeader;
+                font-size: 40px;
+                color: black;
+                letter-spacing:4px;
+                text-shadow: 
+                     1px -1px red,
+                    -1px 1px red,
+                    -1px -1px red,
+                     1px 1px red;
+
             }
-            p {
-                font-size: 20px;
+            .EZPZ {
+                font-family: courier;
+                color: red;
+                font-size: 25px;
+                text-shadow: 
+                
+                1px -1px black,
+                -1px 1px black,
+                -1px -1px black,
+                1px 1px black;    
             }
-            a {
-                font-size: 20px;
-            }  
-            li {
-                font-size: 20px;
-            }            
+            .DATES {
+                background-color: #3b3838;
+                  border:4px solid black;
+                  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+            }
         </style>
     </head>
     <body>
         <h1>Ellie Deathmachine</h1>
-        <p>Hello everyone, this is the official Ellie Deathmachine website.</p>
+
         <h2>Upcoming live shows</h2>
+        <div class="DATES">
         <ul>
-            <li>March 16th at the <a href="https://realms7.net/">Realms Arcade</a> with Lil Kevo 303, Dreamweaver, Elevation, and K A E N</li>
-            <li>Sometime in March with 3 Piece Jackal at an unknown location</li>
+            <li class="EZPZ">February 16th with Known Escapes and Booked By Mistake, DM <a href="https://www.instagram.com/transboise?igsh=YmxnYTNmeWMzYm82" class="EZPZ">Boise Trans Collective</a> for the address</li>
+
+            <li class="EZPZ">March 16th at the <a href="https://realms7.net/" class="EZPZ">Realms Arcade</a> with Lil Kevo 303, Dreamweaver, Elevation, and K A E N</li>
+            <li class="EZPZ">Sometime in March with 3 Piece Jackal at an unknown location</li>
         </ul>
-        <h2>Listen to Ellie Deathmachine</h2>
-        <div style="display: flex; justify-content: space-between;">
-        <a href="https://elliedeathmachine.bandcamp.com/">Bandcamp</a>
-        <a href="https://music.apple.com/us/artist/ellie-deathmachine/1691237796">Apple Music</a>
-        <a href="https://open.spotify.com/artist/6h9HlExnIbiAdycnOJhpVq?si=Q8w45BXmQt2-MvRKkvVLFw">Spotify</a>
-        <a href="https://www.youtube.com/channel/UC2-vzx4jTkTiv7ShKYDo8-g">Youtube Music</a>
         </div>
-        <p>If your streaming service isn't on here, I'm probably on it, look up "Ellie Deathmachine."</p>
+        <h2>Listen to Ellie Deathmachine</h2>
+        <table class="box">
+            <tr>
+        <td><a href="https://elliedeathmachine.bandcamp.com/" class="EZPZ">Bandcamp</a></td>
+            </tr>
+            <tr>
+       <td> <a href="https://music.apple.com/us/artist/ellie-deathmachine/1691237796" class="EZPZ">Apple Music</a></td>
+            </tr>
+            <tr>
+       <td> <a href="https://open.spotify.com/artist/6h9HlExnIbiAdycnOJhpVq?si=Q8w45BXmQt2-MvRKkvVLFw" class="EZPZ">Spotify</a></td>
+            </tr>
+            <tr>
+       <td> <a href="https://www.youtube.com/channel/UC2-vzx4jTkTiv7ShKYDo8-g" class="EZPZ">Youtube Music</a></td>
+            </tr>
+            <tr><th>
+                                <p class="EZPZ">If your streaming service isn't on here, I'm probably on it, look up "Ellie Deathmachine."</p>
+
+            </th></tr>
+                
+        </table>
+
     </body>
 </html>
